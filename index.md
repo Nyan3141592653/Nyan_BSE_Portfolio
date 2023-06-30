@@ -41,10 +41,10 @@ This is an HTML comment in Markdown
 <!--- Previous challenges you faced that you overcame-->
 <!--- What needs to be completed before your final milestone -->
 
-<!---# First Milestone-->
+# First Milestone
 
 <!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-bnsnnpSTN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!---<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 <!---For your first milestone, describe what your project is and how you plan to build it. You can include:-->
@@ -52,6 +52,9 @@ This is an HTML comment in Markdown
 <!--- Technical progress you've made so far-->
 <!--- Challenges you're facing and solving in your future milestones-->
 <!--- What your plan is to complete your project-->
+My intensive project is the Hexapod. I chose it because it looked really cool, and I can actually use and make modifications to it instead of leaving it in the closet to collect dust. It is made of 18 servos, a WLAN module, <!--a wireless module-->, an Arduino Mega v3 board, and Acrylic plates. The servo motors are the components that make the robot move The WLAN module, which stands for wireless local area network is used to connect the computer or phone wirelessly to the hexapod but my computer’s software isn’t compatible with the WLAN to connect. <!--The wireless module is used to connect the controller to the robot-->. The Arduino Mega board connects all of these components and it is charged by the rechargeable battery. The acrylic plates make up the structure of the Hexapod. While building this I faced many challenges. Most of them revolved around the screws because the holes the screws were supposed to go in didn't have threading 
+so I had to use quite a bit of force to screw them in. Also, a few servos kept overheating so I had to replace them. The software also gave me a hard time when I was calibrating it because the legs would not move but I restarted the program and reset the servos and that worked. For my next milestone, I will have the controller built and connected to the Hexapod.
+
 
 # Starter Project
 
