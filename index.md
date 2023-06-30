@@ -6,7 +6,6 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
 ```
-![Nyan-Headshot-BSE](https://github.com/nyanpatel/Nyan_BSE_Portfolio/assets/138039736/acf38792-9660-450f-a863-1313ab116a3c)
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -14,7 +13,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-<img src="![Nyan-Headshot-BSE](https://github.com/nyanpatel/Nyan_BSE_Portfolio/assets/138039736/acf38792-9660-450f-a863-1313ab116a3c)" alt="Headstone Image">
+![Nyan Headshot](/least-github-pages/assets/logo.png)
 
 # Final Milestone
 
