@@ -31,17 +31,18 @@ This is an HTML comment in Markdown
 
 
 
-<!--# Second Milestone-->
+# Second Milestone
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QrsfoZuxWrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:-->
 <!--- Technical details of what you've accomplished and how they contribute to the final goal-->
 <!--- What has been surprising about the project so far-->
 <!--- Previous challenges you faced that you overcame-->
 <!--- What needs to be completed before your final milestone -->
+My second milestone for the hexapod is building the controller. It is made from a custom Arduino Uno, a Remote shield, a wireless module, a 9-volt battery, and an acrylic plate. The custom Arduino Uno is used to program the Remote Shield. The Remote shield, which is on top of the Arduino, is used to control the Hexapod. There are two wireless modules, one on the controller and one on the robot; this is what lets me control the Hexapod wirelessly because the frequencies released from the wireless module are the same. The acrylic plate is used to hold the battery and the boards together. When both the Hexapod and the controller are turned on the frequencies from the wireless modules connect and so are the controller and hexapod. Then you can move the joystick and that sends a message to the wireless module which outs in on a frequency wave over to the other wireless module. That then sends the messae to the Arduino on the Hexapod and the motion you wanted by moving the joystick then occurs. A challenge I faced while building this was downloading the software because the Arduino IDE app didn’t detect my USB type C as a port, so I had to restart my computer, and that worked. So far what has been surprising about the project is how quickly I built it, in a week, which opens a very wide variety of what  I could do next with modifications. My next steps are to add the modifications. I chose to add an LCD to display different messages or maybe computer-generated messages if I can figure out the coding. I'll also add a LED matrix to display a face that could change, again, depending on if I can figure out the code. 
 
 # First Milestone
 
