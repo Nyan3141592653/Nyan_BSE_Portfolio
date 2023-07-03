@@ -1,6 +1,6 @@
 # Hexapod
 <!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
-The Hexapod is a robot
+The Hexapod is a robotic creature designed with six legs that mimic the walking motion of insects. It is a versatile and programmable robot that allows me to build and customize my own Hexapod robot. The Hexapod's body is made of high-quality acrylic material, providing durability and sturdiness. Each leg consists of three servo motors, allowing for precise control of movement. The Hexapod is powered by an Arduino board, which serves as the brain of the robot, controlling its actions and receiving input from sensors. It features a wireless control mode, enabling users to control the Hexapod remotely via a smartphone or computer. It also has a controller that is also powered by an Arduino board. The Hexapod offers an engaging and educational platform for learning about robotics and exploring the fascinating world of engineering.
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 HTML 
