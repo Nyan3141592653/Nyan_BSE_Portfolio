@@ -82,7 +82,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```
+```-->
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -90,14 +90,15 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Mega 2560 | This is used to connect everything for the robot | $55 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/ref=asc_df_B0046AMGW0/?tag=hyprod-20&linkCode=df0&hvadid=309743296044&hvpos=&hvnetw=g&hvrand=8606496019160976434&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-516265455074&psc=1)"> Link </a> |
+| WLAN module | This connects the hexapod to the computor or phone wirelessly | $15 | <a href="https://www.amazon.com/Gikfun-Digital-Receiver-Transmitter-Arduino/dp/B0816P2545/ref=sr_1_1_sspa?crid=3AXKLXTED39S9&keywords=arduino+WLAN+module&qid=1688761061&s=electronics&sprefix=arduino+wlan+module%2Celectronics%2C134&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)"> Link </a> |
+| Wireless Module (2)| This is used to connect the controller and the robot | $9 | <a href="https://www.amazon.com/HiLetgo-Wireless-Transceiver-Development-Compatible/dp/B010N1ROQS/ref=sr_1_3?crid=VA6M1MWSN0RH&keywords=arduino+wireless+module&qid=1688761182&s=electronics&sprefix=arduino+wireless+module%2Celectronics%2C137&sr=1-3)"> Link </a> |
+| Servo motors (18)| This makes the legs move| $18 | <a href="https://www.amazon.com/Hosyond-MG996R-Digital-Motors-Helicopter/dp/B0BYD9M1P3/ref=sr_1_17_sspa?crid=3TW5W06Y90D49&keywords=arduino+fully+rotational+servo+motors&qid=1688761387&s=electronics&sprefix=arduino+fully+rotational+servo+motors%2Celectronics%2C133&sr=1-17-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1"> Link </a>
 
-# Other Resources/Examples
+<!--# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.-->
+To watch the BSE tutorial on how to create a portfolio, click here.
