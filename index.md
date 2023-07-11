@@ -65,7 +65,7 @@ so I had to use quite a bit of force to screw them in. Also, a few servos kept o
 
 My starter project was the useless machine. It had a pressure switch, a flip switch, an acrylic arm, a motor, a battery console, an LED, a PCV board, and the acrylic plates that assemble the box itself. When the switch is flipped the electrical current travels to the motor and the arm moves up, this releases the pressure switch telling the LED to turn on. The arm then flips the switch back creating another electrical current to the motor that tells the arm to come back, the arm goes back into the box and it presses the pressure switch which turns off the LED. The electrical currents all traveled through the PCV board. It is powered by three triple-A batteries. I enjoyed soldering the parts together, but I had some difficulties with the switch as I accidentally soldered it a little slanted this was a problem because when I tested it the arm would miss the switch entirely. Instead of de-soldering the whole switch, I changed the spacer placement between the arm and the motor, and that worked. My next project is the Hexapod.
 
-<!---# Schematics 
+# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
 # Code
@@ -82,7 +82,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-```-->
+```
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
