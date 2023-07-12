@@ -67,9 +67,23 @@ My starter project was the useless machine. It had a pressure switch, a flip swi
 
 # Schematics 
 <!---Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.-->
+The LED Matrix:
 
+<img src="schemeit-Project.png" 
+     width="600" 
+     height="400" />
+     
+The LCD and Photoresister:
 
+<img src="Screenshot 2023-07-12 091028.png" 
+     width="600" 
+     height="400" />
+     
+The Hexapod:
 
+<img src="figure-26.png" 
+     width="400" 
+     height="500" />
 
 # Code
 
@@ -687,12 +701,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Arduino Mega 2560 | This is used to connect everything for the robot | $55 | <a href="https://www.amazon.com/ARDUINO-MEGA-2560-REV3-A000067/dp/B0046AMGW0/ref=asc_df_B0046AMGW0/?tag=hyprod-20&linkCode=df0&hvadid=309743296044&hvpos=&hvnetw=g&hvrand=8606496019160976434&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-516265455074&psc=1)"> Link </a> |
+| Raspberry Pi Spider Sheild | This is used to connect everything for the robot | only sold with Hexapod | <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_1_sspa?keywords=hexapod+robot&qid=1689094432&sprefix=hexapo%2Caps%2C208&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.304cacc1-b508-45fb-a37f-a2c47c48c32f&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Lnik</a>|
 | WLAN module | This connects the hexapod to the computor or phone wirelessly | $15 | <a href="https://www.amazon.com/Gikfun-Digital-Receiver-Transmitter-Arduino/dp/B0816P2545/ref=sr_1_1_sspa?crid=3AXKLXTED39S9&keywords=arduino+WLAN+module&qid=1688761061&s=electronics&sprefix=arduino+wlan+module%2Celectronics%2C134&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)"> Link </a> |
 | Wireless Module (2)| This is used to connect the controller and the robot | $9 | <a href="https://www.amazon.com/HiLetgo-Wireless-Transceiver-Development-Compatible/dp/B010N1ROQS/ref=sr_1_3?crid=VA6M1MWSN0RH&keywords=arduino+wireless+module&qid=1688761182&s=electronics&sprefix=arduino+wireless+module%2Celectronics%2C137&sr=1-3)"> Link </a> |
 | Servo motors (18)| This makes the legs move| $18 | <a href="https://www.amazon.com/Hosyond-MG996R-Digital-Motors-Helicopter/dp/B0BYD9M1P3/ref=sr_1_17_sspa?crid=3TW5W06Y90D49&keywords=arduino+fully+rotational+servo+motors&qid=1688761387&s=electronics&sprefix=arduino+fully+rotational+servo+motors%2Celectronics%2C133&sr=1-17-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&psc=1"> Link </a>|
 | Arduino Uno (3)| One is used for the controller the other two are used for the modifications| $17| <a href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_2_sspa?crid=3HD96IPMK1EOY&keywords=arduino+uno&qid=1689025624&sprefix=arduino%2Caps%2C276&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a>|
-| Remote Sheild| This is used to control the robot| only sold with hexapod|<a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_1_sspa?keywords=hexapod+robot&qid=1689094432&sprefix=hexapo%2Caps%2C208&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.304cacc1-b508-45fb-a37f-a2c47c48c32f&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Lnik</a>
+| Remote Sheild| This is used to control the robot| only sold with hexapod|<a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/ref=sr_1_1_sspa?keywords=hexapod+robot&qid=1689094432&sprefix=hexapo%2Caps%2C208&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.304cacc1-b508-45fb-a37f-a2c47c48c32f&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Lnik</a>|
 |LCD I2C| This is one of the modifications| $10| <a href="https://www.amazon.com/s?k=lcd+i2c&sprefix=lcd+i2%2Caps%2C173&ref=nb_sb_ss_ts-doa-p_1_6"> Link</a>|
 |Photoresister| This is another modification that controls the LCD I2C| $6| <a href = "https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_3?crid=2K1X8X76EZ2XO&keywords=photoresistor&qid=1689093298&sprefix=photoresister%2Caps%2C184&sr=8-3"> Link</a>|
 |LED Matrix (2)| This is the last modification and its used to make the eyes| $8| <a href="https://www.amazon.com/HiLetgo-MAX7219-Matrix-Display-Control/dp/B07W6KZR5D/ref=sr_1_8?crid=1H6B0S94TMJU2&keywords=arduino+led+matrix&qid=1689093486&sprefix=arduino+led+matrix%2Caps%2C151&sr=8-8"> Link</a>|
