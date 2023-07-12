@@ -68,7 +68,7 @@ My starter project was the useless machine. It had a pressure switch, a flip swi
 # Schematics 
 <!---Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.-->
 
-![Screenshot 2023-07-12 091028](https://github.com/Nyan3141592653/Nyan_BSE_Portfolio/assets/138039736/1cbfab31-dd5d-4444-963d-0ef1db3bb3cf)
+
 
 
 # Code
