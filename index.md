@@ -194,14 +194,14 @@ void loop()
   for (uint8_t i=0; i<MAX_EYE_PAIR; i++)
     E[i].animate();
 }
-
+```
+```c++
 //Code for the LCD I2C and photoresister
 #include <Wire.h>
 #include <LCD_I2C.h>
 #include <LiquidCrystal.h>
 #include <LiquidCrystal_I2C.h>
-```
-```c++
+
 const int photoresistorPin = A0;
 int photoresistorValue = 0;
 
