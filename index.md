@@ -7,7 +7,6 @@ HTML
 This is an HTML comment in Markdown 
  Anything between these symbols will not render on the published site -->
 
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Nyan P | Washington High School | Mechanical Engineering | Incoming Sophomore
