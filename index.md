@@ -18,21 +18,18 @@ This is an HTML comment in Markdown
      width="400" 
      height="500" />
      
+# Final Milestone
 
 
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rNp1tN2Grq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <!---For your final milestone, explain the outcome of your project. Key details to include are:-->
 <!--- What you've accomplished since your previous milestone-->
 <!--- What your biggest challenges and triumphs were at BSE-->
 <!--- A summary of key topics you learned about-->
 <!--- What you hope to learn in the future after everything you've learned at BSE-->
-# Final Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rNp1tN2Grq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 
 For my final milestone, I accomplished my modifications. My modifications were adding two LED matrixes, an LCD, and a photoresistor. The two LED matrixes show moving eyes that blink. The LCD shows a smile and a frown that is controlled by the photoresistor. When it gets darker the photoresistor detects a certain level of light it will change the smile into a frown. When it is brighter than the level of darkness set it will be a smile. This makes it a light-sensitive Hexapod because it likes light and dislikes when it is dark. The components for the LED Matrix eyes are the two LED Matrixes, an Arduino Uno, and  10 jumper wires. For the LCD smile, you need an LCD I2C, a photoresistor, an Arduino Uno, a 10k Ω resister, and 10 jumper wires. Use an LCD with an I2C board so you only have to use 16 wires but instead just 4. You will also need a breadboard to connect all the components so you will need 12 wires for the LED Matrix. There were a lot of challenges while doing this project. For the LED eyes the main challenge I faced was soldering because the pins were very close to each other so I soldered two pins together multiple times so I had to de-solder a lot. This caused some damage to the LED Matrix board so when I tried to turn it on it would turn on so I had to get a different board. I had to solder it again which took some time because I was being very careful. Then I wired it all up with the Arduino and the Arduino IDE software didn't recognize my USD type A/B, the wire that connects the Arduino to the Computer. This was the first time this happened, it happened a few times after. To resolve this I had to restart my computer but I saved my code beforehand so after it restarted  I uploaded the code and there were no issues after that. The challenges with doing the LCD revolved around the coding. The first challenge, however, was the circuitry because I didn't have a resister so when I tested it the resister didn't work. I went online and found I had to add a resister but wasn't sure which one so I applied Ohm's Law and found I had to use a 10k Ω resister, which is a very big resister. I tested it and it worked, but that was just the beginning. With the LED eyes I had help with online forums and Arduino Libraries but with the LED Smile, no one had done it before so there was nothing I could use as a reference for coding. I did some research on coding custom Characters on an LCD and I got the LCD to display a smile and then frown after every 5 seconds. For the photoresistor, I used ChatGPT to help me because there were no forums or articles that had any information about using a photoresistor with an LCD. With Chat GPT I found the correct functions to use but their code was terrible. I uploaded my code and it worked. Then I wired it all together and I was done with my Hexapod.
 
@@ -62,8 +59,7 @@ My second milestone for the hexapod is building the controller. It is made from 
 <!--- Technical progress you've made so far-->
 <!--- Challenges you're facing and solving in your future milestones-->
 <!--- What your plan is to complete your project-->
-My intensive project is the Hexapod. I chose it because it looked really cool, and I can actually use and make modifications to it instead of leaving it in the closet to collect dust. It is made of 18 servos, a WLAN module, <!--a wireless module-->, an Arduino Mega v3 board, and Acrylic plates. The servo motors are the components that make the robot move The WLAN module, which stands for wireless local area network, is used to connect the computer or phone wirelessly to the hexapod but my computer’s software isn’t compatible with the WLAN to connect. <!--The wireless module is used to connect the controller to the robot--> The Arduino Mega board connects all of these components, and it is charged by a rechargeable battery. The acrylic plates make up the structure of the Hexapod. While building this I faced many challenges. Most of them revolved around the screws because the holes the screws were supposed to go in didn't have threading 
-so I had to use quite a bit of force to screw them in. Also, a few servos kept overheating so I had to replace them. The software also gave me a hard time when I was calibrating it because the legs would not move, but I restarted the program and reset the servos and that worked. For my next milestone, I will have the controller built and connected to the Hexapod.
+My intensive project is the Hexapod. I chose it because it looked really cool, and I can actually use and make modifications to it instead of leaving it in the closet to collect dust. It is made of 18 servos, a WLAN module, a wireless module, an Arduino Mega v3 board, and Acrylic plates. The servo motors are the components that make the robot move The WLAN module, which stands for wireless local area network, is used to connect the computer or phone wirelessly to the hexapod but my computer’s software isn’t compatible with the WLAN to connect. The wireless module is used to connect the controller to the robot The Arduino Mega board connects all of these components, and it is charged by a rechargeable battery. The acrylic plates make up the structure of the Hexapod. While building this I faced many challenges. Most of them revolved around the screws because the holes the screws were supposed to go in didn't have threading so I had to use quite a bit of force to screw them in. Also, a few servos kept overheating so I had to replace them. The software also gave me a hard time when I was calibrating it because the legs would not move, but I restarted the program and reset the servos and that worked. For my next milestone, I will have the controller built and connected to the Hexapod.
 
 
 # Starter Project
@@ -204,8 +200,8 @@ void loop()
 #include <LCD_I2C.h>
 #include <LiquidCrystal.h>
 #include <LiquidCrystal_I2C.h>
-
-
+```
+```c++
 const int photoresistorPin = A0;
 int photoresistorValue = 0;
 
@@ -403,10 +399,6 @@ void loop() {
   }
 }
 ```
-
-
-
-
 
 <!---# Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components. 
